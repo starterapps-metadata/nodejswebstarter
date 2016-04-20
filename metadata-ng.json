@@ -1,0 +1,70 @@
+{
+    "name": "Node.js Cache Web Starter",
+    "services": [
+	{
+            "name": "DataCache",
+            "choices": ["free"]
+        }
+     ],
+    "defaultMemory": 512,
+    "startCommand": "node app.js",
+    "description": "Use the DataCache service with the 'SDK for Node.js™' runtime.",
+    "type": "web",
+    "version": "1.0",
+    "smallIcon": "node_DataCache_icon.png",
+    "icon": "node_DataCache_icon.png",
+    "largeIcon": "node_DataCache_icon.png",
+    "featuredIcon": "node_DataCache_icon.png",
+    "marqueeIcon": "node_DataCache_marquee.png",
+    "headingIcon": "node_DataCache_heading.png",
+    "source": {
+        "scmType": "git",
+        "url": "https://github.com/IBM-Bluemix/nodejs-datacache.git",
+        "appPath": ""
+    },
+    "docURL": "/#starters/NodejsDataCache/index.html#nodejsdatacache",
+    "system_tags": ["ibm_created"],
+    "runtime_id": "763dcb4a-8642-4676-ae17-ca5bd032ad9e",
+    "categories": ["boilerplate"],
+    "runtime_template_id": "nodejsHelloWorld",
+	"extra" : {
+		"i18n" : {
+			"de" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "Diese Beispielanwendung veranschaulicht die Verwendung des IBM DataCache-Service mit der Node.js-Laufzeit unter IBM Cloud."
+			},
+			"es" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "Esta aplicación de ejemplo muestra cómo utilizar IBM DataCache Service con el tiempo de ejecución de Node.js en IBM Cloud."
+			},
+			"fr" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "Ce modèle d'application explique comment utiliser le service IBM Data Cache avec le contexte d'exécution Node.js dans le cloud IBM."
+			},
+			"it" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "Questa applicazione di esempio mostra come utilizzare il servizio IBM DataCache con il runtime Node.js su IBM Cloud"
+			},
+			"ja" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "このサンプル・アプリケーションでは、IBM DataCache サービスと Node.js ランタイムを IBM Cloudで使用する方法を示します。"
+			},
+			"pt-BR" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "Este aplicativo de exemplo demostra como usar o serviço IBM DataCache com o tempo de execução do Node.js no IBM Cloud"
+			},
+			"zh-Hans" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "此示例应用程序演示如何使用 IBM DataCache Service（IBM Cloud 上具有 Node.js 运行时）"
+			},
+			"zh-Hant" : {
+				"name": "Node.js Cache Web Starter",
+				"description": "這個範例應用程式示範如何使用 IBM DataCache Service 搭配 IBM Cloud 上的 Node.js 執行時期"
+			},
+			"ko": {
+				"name": "Node.js Cache Web Starter",
+				"description": "이 예제 애플리케이션에서는 IBM Cloud의 Node.js 런타임을 포함하는 IBM DataCache 서비스를 사용하는 방법을 보여줍니다. "
+			}
+		}
+	}
+}
